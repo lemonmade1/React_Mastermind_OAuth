@@ -11,7 +11,7 @@ function signup(user) {
     // Probably a duplicate email
     throw new Error('Email already taken!');
   })
-  .then(data => data);
+  .then(({token}) => token);
 }
 
 export default {

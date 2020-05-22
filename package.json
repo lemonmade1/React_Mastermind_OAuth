@@ -9,6 +9,7 @@
     "bcrypt": "^4.0.1",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.20",
     "morgan": "^1.9.1",
     "react": "^16.13.1",
@@ -23,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "console": "node console.js"
   },
   "eslintConfig": {
     "extends": "react-app"
