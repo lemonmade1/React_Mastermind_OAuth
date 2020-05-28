@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './GuessScore.css';
 
 const GuessScore = ({ score }) => {

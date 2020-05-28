@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import styles from './GameTimer.module.css';
 
 function formatTime(seconds) {
@@ -10,6 +11,7 @@ function formatTime(seconds) {
 class GameTimer extends Component {
 
   handleTick = () => {
+    
     // Ignore ticks?
     if (!this.props.isTiming) return;
     this.props.handleTimerUpdate();

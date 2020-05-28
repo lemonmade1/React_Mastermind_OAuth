@@ -1,4 +1,5 @@
 import React from 'react';
+
 import styles from './GuessPeg.module.css';
 
 const GuessPeg = (props) => (

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import styles from './ColorPicker.module.css';
 
 const ColorPicker = (props) => (

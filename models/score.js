@@ -10,7 +10,7 @@ const scoreSchema = new Schema({
 });
 
 // Ensure that initials are uppercase & not longer than 3 characters
-scoreSchema.pre('save', function(next) {
+scoreSchema.pre('save', (next) => {
   this.initials = this.initials.substr(0, 3).toUpperCase();
   next();
 });
